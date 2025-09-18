@@ -1,4 +1,4 @@
-# \*\*Housing Price Prediction in R\*\*
+ \*\*Housing Price Prediction in R\*\*
 
 A regression-based predictive model built in R to estimate housing prices using region-specific features. This project demonstrates data cleaning, feature engineering, model training, evaluation, and visualization.
 
