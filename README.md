@@ -1,71 +1,51 @@
-Housing Price Prediction in R
+# \*\*Housing Price Prediction in R\*\*
 
 A regression-based predictive model built in R to estimate housing prices using region-specific features. This project demonstrates data cleaning, feature engineering, model training, evaluation, and visualization.
 
-📋 Project Overview
+## \*\*📋 Project Overview\*\*
 
-🎯 Objective: Predict housing prices in a specific region and identify the most important factors driving property values.
+\*\*🎯 Objective:\*\* Predict housing prices in a specific region and identify the most important factors driving property values.
 
-💡 Approach: Use regression techniques on cleaned and engineered datasets to build predictive models and evaluate their performance.
+\*\*💡 Approach:\*\* Use regression techniques on cleaned and engineered datasets to build predictive models and evaluate their performance.
 
-🛠 Features and Methodology
+## \*\*🛠 Features and Methodology\*\*
 
-🧹 Data Cleaning and Preprocessing
+### \*\*🧹 Data Cleaning and Preprocessing\*\*
+- Removed duplicates, handled missing values, and ensured correct data types.
 
-Removed duplicates, handled missing values, and ensured correct data types.
+### \*\*⚙️ Feature Engineering\*\*
+- Created new variables such as property age and location-based features.
+- Selected features based on correlation with sale price.
 
-⚙️ Feature Engineering
+### \*\*📊 Modeling\*\*
+- Trained regression models including Linear Regression and Random Forest.
+- Evaluated models using R², MSE, and RMSE metrics.
 
-Created new variables such as property age and location-based features.
+### \*\*📈 Visualization\*\*
+- Explored relationships, feature importance, and residuals using ggplot2.
 
-Selected features based on correlation with sale price.
+## \*\*💻 Tech Stack\*\*
 
-📊 Modeling
+\*\*Language:\*\* R  
+\*\*Libraries:\*\* `tidyverse`, `caret`, `randomForest`, `ggplot2`
 
-Trained regression models including Linear Regression and Random Forest.
+## \*\*📂 Files\*\*
 
-Evaluated models using R², MSE, and RMSE metrics.
+- `Housing Data_Same Region.csv` – Raw dataset
+- `House_prediction.R` – Complete script for data processing, feature engineering, modeling, and evaluation
 
-📈 Visualization
+## \*\*🚀 Running the Analysis\*\*
 
-Explored relationships, feature importance, and residuals using ggplot2.
+1. Open R or RStudio.
+2. Load and run `House_prediction.R`.
+3. Review summary outputs and plots in the console or RStudio Plots pane.
 
-💻 Tech Stack
+## \*\*🔍 Results and Insights\*\*
 
-Language: R
+\*\*📈 Model Performance:\*\* Final model achieved R² = X.XX \*(replace with your actual score)\*
 
-Libraries: tidyverse, caret, randomForest, ggplot2
+\*\*🏆 Top Predictive Features:\*\* X, Y, Z \*(replace with your findings)\*
 
-📂 Files
-
-Housing Data_Same Region.csv – Raw dataset
-
-House_prediction.R – Complete script for data processing, feature engineering, modeling, and evaluation
-
-🚀 Running the Analysis
-
-Open R or RStudio.
-
-Load and run House_prediction.R.
-
-Review summary outputs and plots in the console or RStudio Plots pane.
-
-🔍 Results and Insights
-
-📈 Model Performance: Final model achieved R² = X.XX (replace with your actual score)
-
-🏆 Top Predictive Features: X, Y, Z (replace with your findings)
-
-💡 Key Insights:
-
-Property age and location strongly influence price.
-
-Insights from the model can help identify high-value properties and trends in the local market.
-
-🔮 Future Work
-
-Experiment with additional regression techniques or ensemble methods.
-
-Expand dataset to include multiple regions.
-
-Develop a user interface for interactive price prediction.
+### \*\*💡 Key Insights:\*\*
+- Property age and location strongly influence price.
+- Insights from the model can help identify high-value properties and trends in the local market.
